@@ -1,60 +1,51 @@
 {
-  "hash": "db60bf94",
-  "browserHash": "88eb93a3",
+  "hash": "defaef8c",
+  "browserHash": "bf62f257",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-browser.js",
       "file": "vue.js",
-      "fileHash": "84286695",
+      "fileHash": "ba9f46e9",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "e79cdb4c",
+      "fileHash": "720dea4a",
       "needsInterop": false
     },
     "@braintree/sanitize-url": {
       "src": "../../../node_modules/@braintree/sanitize-url/dist/index.js",
       "file": "@braintree_sanitize-url.js",
-      "fileHash": "b264415f",
+      "fileHash": "29d5d8d8",
       "needsInterop": true
     },
     "dayjs": {
       "src": "../../../node_modules/dayjs/dayjs.min.js",
       "file": "dayjs.js",
-      "fileHash": "add3a05f",
+      "fileHash": "b2ecc5f6",
       "needsInterop": true
     },
     "debug": {
       "src": "../../../node_modules/debug/src/browser.js",
       "file": "debug.js",
-      "fileHash": "f6cd6ac7",
+      "fileHash": "b7acb293",
       "needsInterop": true
     },
     "cytoscape-cose-bilkent": {
       "src": "../../../node_modules/cytoscape-cose-bilkent/cytoscape-cose-bilkent.js",
       "file": "cytoscape-cose-bilkent.js",
-      "fileHash": "5b6da529",
+      "fileHash": "20bbd116",
       "needsInterop": true
     },
     "cytoscape": {
       "src": "../../../node_modules/cytoscape/dist/cytoscape.cjs.js",
       "file": "cytoscape.js",
-      "fileHash": "1e3690a7",
+      "fileHash": "e603a17d",
       "needsInterop": true
-    },
-    "@theme/index": {
-      "src": "../../../node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "9a4e47f1",
-      "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-PFTMKJPF": {
-      "file": "chunk-PFTMKJPF.js"
-    },
     "chunk-76J2PTFD": {
       "file": "chunk-76J2PTFD.js"
     }

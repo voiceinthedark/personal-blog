@@ -8,11 +8,11 @@ hero:
   tagline: I rant and write code 23/7
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
       text: Articles
       link: /articles/
+    - theme: alt
+      text: Notes
+      link: /notes/
 
 features:
   - title: Feature A

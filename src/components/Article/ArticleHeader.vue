@@ -57,8 +57,9 @@ let dateDelta = computed(() => {
                       
 #updated-at
     font-size: 0.9rem
+    font-weight: bold
     width: 100%
-    background: #aa1121
+    background: var(--vp-c-red-dark)
     padding-left: 0.5rem
 
 </style>
