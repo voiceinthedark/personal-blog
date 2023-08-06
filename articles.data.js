@@ -4,7 +4,7 @@ export default {
     load(){
         let articles = [];
         return{
-            data: scanArticles('./src/articles', articles).filter(article => article.endsWith('.md')),
+            data: scanArticles('./src/articles', articles)
         }
     }
 }

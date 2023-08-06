@@ -8,7 +8,10 @@ function scanArticles(dir, articlesNames) {
         if (fs.statSync(`${dir}/${file}`).isDirectory()) {
             articlesNames = scanArticles(dir+"/"+file, articlesNames)
         } else {
-            articlesNames.push(file)
+            // if file is a markdown file add it to the array with its parent directory
+            if (file.endsWith('.md')){
+                articlesNames.push(`${dir}/${file}`)
+            }
         }
     })
     return articlesNames
