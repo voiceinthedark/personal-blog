@@ -3,11 +3,11 @@
         <h1>{{ frontmatter.title }}</h1>
         <p>{{ frontmatter.description }}</p>
         <div>
-            <span>{{ new Date(frontmatter.published_at).toLocaleDateString() }}</span>            
+            <span>{{ published_at }}</span>            
         </div>
     </div>
     <div id="updated-at" v-if="dateDelta < 0">
-        <span> Article last updated on {{ new Date(frontmatter.updated_at).toLocaleDateString() }}</span>
+        <span> Article last updated on {{ updated_at }}</span>
     </div>
     
 </template>
@@ -35,6 +35,10 @@ let dateDelta = computed(() => {
     flex-direction: column
     h1 
         font-size: 2rem
+    p
+        font-size: 1.2rem
+        color: #736f6a
+        font-style: italic
     div
         display: flex
         justify-content: space-between

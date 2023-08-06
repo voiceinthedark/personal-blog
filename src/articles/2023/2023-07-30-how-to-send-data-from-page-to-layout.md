@@ -1,7 +1,7 @@
 ---
 title: How To Send data from a Vue Page to a persistent Layout
 published_at: 2023-07-30T00:39:00+03:00
-updated_at: 2023-08-06T03:09:12.184Z
+updated_at: 2023-08-06T10:36:26.308Z
 type: article
 description: How to send data from a vue page to a persistent layout in Laravel + inertiajs
 link: /2023/2023-07-30-how-to-send-data-from-page-to-layout
@@ -114,6 +114,7 @@ And then we simply pass it to the side layout as a prop:
 > The solution diagram
 
 ```mermaid
+%%{init: {'theme': "neutral"}}%%
 stateDiagram-v2
     [*] --> Extract_TOC
     Extract_TOC --> Send_TOC_TO_Persistent_Layout
