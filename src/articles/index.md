@@ -6,7 +6,7 @@
 
 <ul>
     <template v-for="article in articles">
-      <li><a :href="article.url">{{ article.frontmatter.title }}</a></li>
+      <li><a :href="'/personal-blog' + article.url">{{ article.frontmatter.title }}</a></li>
     </template>
 </ul>
 
