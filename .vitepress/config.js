@@ -29,6 +29,7 @@ export default defineConfig({
   },
   srcDir: 'src',
   markdown: {
+    lineNumbers: true,
     attrs: {
       leftDelimiter: '{',
       rightDelimiter: '}',
