@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 import { withMermaid } from 'vitepress-plugin-mermaid';
 import markdownItAttrs from 'markdown-it-attrs';
+import markdownItFootnote from 'markdown-it-footnote';
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid({
@@ -35,7 +36,7 @@ export default withMermaid({
       disable: false,
     },
     config: (md) => {
-      md.use(markdownItAttrs);
+      md.use(markdownItAttrs).use(markdownItFootnote);
     },
   },
   mermaid: {

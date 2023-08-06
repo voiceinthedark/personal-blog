@@ -12,6 +12,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "markdown-it-attrs": "^4.1.6"
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-footnote": "^3.0.3"
   }
 }
