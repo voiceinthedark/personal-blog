@@ -17,9 +17,7 @@ export default withMermaid({
     sidebar: [
       {
         text: 'Home',
-        items: [
-          { text: 'Notes', link: '/notes/' },          
-        ],
+        items: [{ text: 'Notes', link: '/notes/' }],
       },
     ],
 
@@ -43,7 +41,7 @@ export default withMermaid({
   mermaid: {
     startOnLoad: true,
   },
-  
+  base: '/personal-blog/',
 });
 /* export default defineConfig({
   title: 'markdown blog',
