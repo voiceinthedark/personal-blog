@@ -1,10 +1,10 @@
 ---
 title: projects timeline
 published_at: '2023-08-05T15:00:29.804Z'
-updated_at: 2023-08-06T15:20:55.911Z
+updated_at: 2023-08-06T15:49:15.726Z
 type: note
 description: null
-link: /2023/projects-timeline
+link: notes/projects-timeline
 image: /images/2023-07-31-04-22-45.png
 tags:
   - vue
@@ -34,5 +34,5 @@ timeline
     title "Return to coding"
     june, 2023: php general : php OOP : markdown-task-extension
     july, 2023: blogging-platform-cms : markdown-blog : personal-portfolio
-    august, 2023: markdown-blog-extension
+    august, 2023: markdown-blog-extension : Vitepress blog
 ```

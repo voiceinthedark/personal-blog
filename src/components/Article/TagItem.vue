@@ -10,7 +10,7 @@ defineProps({
 <style lang="sass" scoped>
 li
     font-size: 0.9rem
-    border: 1px solid #736f6a
+    border: 1px dashed #3c8a0f
     padding: 0 0.5rem
     background: #348f47
     color: #fff

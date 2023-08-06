@@ -15,11 +15,14 @@ hero:
       link: /notes/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Who am I
+    icon: 👨‍💻
+    details: I'm Firas Abbas, a software engineer from Tyre, Lebanon
+  - title: Skills
+    icon: 📚
+    details: I'm proficient in HTML, CSS, Javascript, PHP, and Python
+  - title: Technologies
+    icon: 💻
+    details: I write in Vue, Laravel, Inertia, Tailwindcss, Livewire, and more
 ---
 
