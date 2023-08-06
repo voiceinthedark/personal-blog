@@ -30,8 +30,7 @@ let dateDelta = computed(() => {
 
 </script>
 <style lang="sass" scoped>
-.article-header
-    margin-bottom: 2rem
+.article-header    
     display: flex
     flex-direction: column
     h1 
@@ -40,8 +39,9 @@ let dateDelta = computed(() => {
         display: flex
         justify-content: space-between
         span
-            font-size: 0.8rem
-            color: gray
+            font-size: 1rem
+            color: #686f6a
+            margin-bottom: 0.5rem
 #updated-at
     font-size: 0.9rem
     width: 100%
