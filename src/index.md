@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "markdown blog"
   text: "A markdown driven blog"
-  tagline: My great project tagline
+  tagline: I rant and write code 23/7
   actions:
     - theme: brand
       text: Markdown Examples
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Articles
+      link: /articles/
 
 features:
   - title: Feature A
