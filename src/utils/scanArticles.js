@@ -1,11 +1,16 @@
 import fs from 'fs'
 
-function scanArticles() {
-    let articlesNames = []
-    fs.readdirSync(path = './articles', { recursive: true }).forEach((file) => {
-        articlesNames.push(file)
+function scanArticles(dir, articlesNames) {    
+    const files = fs.readdirSync(dir)
+    articlesNames = articlesNames || []
+    files.forEach(file => {
+        // if file is directory scan it
+        if (fs.statSync(`${dir}/${file}`).isDirectory()) {
+            articlesNames = scanArticles(dir+"/"+file, articlesNames)
+        } else {
+            articlesNames.push(file)
+        }
     })
-    // console.log((articlesNames));
     return articlesNames
 }
 

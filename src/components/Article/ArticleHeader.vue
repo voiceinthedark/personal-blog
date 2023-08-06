@@ -3,7 +3,11 @@
         <h1>{{ frontmatter.title }}</h1>
         <p>{{ frontmatter.description }}</p>
         <div>
-            <span>{{ published_at }}</span>            
+            <span>{{ published_at }}</span>
+            <div>
+                <TagsList :tags="frontmatter.tags" />
+            </div>
+
         </div>
     </div>
     <div id="updated-at" v-if="dateDelta < 0">
@@ -13,6 +17,7 @@
 </template>
 <script setup>
 import {computed} from 'vue';
+import TagsList from './TagsList.vue';
 
 const fm = defineProps({
     frontmatter: Object
@@ -41,14 +46,19 @@ let dateDelta = computed(() => {
         font-style: italic
     div
         display: flex
+        flex-wrap: wrap
+        flex-direction: row
         justify-content: space-between
+        align-items: center
         span
             font-size: 1rem
             color: #686f6a
-            margin-bottom: 0.5rem
+            margin-bottom: 0.5rem     
+                      
 #updated-at
     font-size: 0.9rem
     width: 100%
     background: #aa1121
     padding-left: 0.5rem
+
 </style>
