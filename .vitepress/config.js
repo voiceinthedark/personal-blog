@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress';
 import { withMermaid } from 'vitepress-plugin-mermaid';
 import markdownItAttrs from 'markdown-it-attrs';
 import markdownItFootnote from 'markdown-it-footnote';
+import markdownItKatex from 'markdown-it-katex';
+import markdownItKatexPlugin from 'markdown-it-katex';
+import markdownItTaskLists from 'markdown-it-task-lists';
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid({
@@ -36,7 +39,8 @@ export default withMermaid({
       disable: false,
     },
     config: (md) => {
-      md.use(markdownItAttrs).use(markdownItFootnote);
+      md.use(markdownItAttrs).use(markdownItFootnote).use(markdownItKatex)
+        .use(markdownItKatexPlugin).use(markdownItTaskLists);
     },
   },
   mermaid: {

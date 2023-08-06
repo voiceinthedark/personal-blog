@@ -1,7 +1,7 @@
 ---
 title: How To Send data from a Vue Page to a persistent Layout
 published_at: 2023-07-30T00:39:00+03:00
-updated_at: 2023-08-06T15:34:25.798Z
+updated_at: 2023-08-06T20:26:09.538Z
 type: article
 description: How to send data from a vue page to a persistent layout in Laravel + inertiajs
 link: /2023/2023-07-30-how-to-send-data-from-page-to-layout
@@ -125,7 +125,12 @@ stateDiagram-v2
     Send_TOC_TO_Side_Layout --> [*]
 ```
 
-Until next time.
+Until next time. :wolf:  
+
+
+- [ ] A
+- [x] B
+
 
 [^1]: [digital ocean global event bus](https://www.digitalocean.com/community/tutorials/vuejs-global-event-bus)
 
