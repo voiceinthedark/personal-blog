@@ -1,7 +1,7 @@
 ---
 title: How To Send data from a Vue Page to a persistent Layout
 published_at: 2023-07-30T00:39:00+03:00
-updated_at: 2023-08-06T20:26:09.538Z
+updated_at: 2023-08-07T07:50:16.527Z
 type: article
 description: How to send data from a vue page to a persistent layout in Laravel + inertiajs
 link: /2023/2023-07-30-how-to-send-data-from-page-to-layout
@@ -127,11 +127,6 @@ stateDiagram-v2
 
 Until next time. :wolf:  
 
-
-- [ ] A
-- [x] B
-
-
 [^1]: [digital ocean global event bus](https://www.digitalocean.com/community/tutorials/vuejs-global-event-bus)
 
 
@@ -141,3 +136,21 @@ Until next time. :wolf:
     import ArticleHeader from '../../components/Article/ArticleHeader.vue'
 </script>
 
+<style scoped>
+    strong[title] {
+        position: relative;
+        z-index: 10;
+        top: 30px;
+        left: -30px;
+        display: inline-block;        
+        background-color: #127f22;
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    strong[title]:hover {
+        cursor: pointer;
+        transform: scale(1.1) translateY(-5px);
+        transition: all 0.3s ease-in-out;
+    }
+</style>
